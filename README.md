@@ -2,16 +2,6 @@
 
 The Decentralized Identity System is a collaboration between [District Labs](http://districtlabs.com/) and [Disco](https://disco.xyz/).
 
-The proposed DID standard adheres to [progressive commitment threshold](https://hackmd.io/@kames/progressive-commitment-thresholds) engineering principles. Architected to gracefully help users progress through core Web3 commitment thresholds: **identity, finance and coordination**.
-
-Starting as a decentralized identifier (DID) document and overtime evolving to become an user owned Smart Wallet, which inherits W3C [decentralized identifier](https://www.w3.org/TR/did-core/) and [verifiable credential](https://www.w3.org/TR/vc-data-model/) standards. 
-
-The Public Key Infrastructure (PKI) smart contracts underpinning the Decentralized Identity System stack can also provide privacy preserving account recovery using zero-knowledge proofs. In other words, the DID document and accompanying Smart Wallet can be recovered either via a user's social network or through trusted third-party service providers. And is un-opinionated, from a technical perspective, as to what method a user chooses i.e. decentralized Web of Trust model or centralized Trust Anchor Gateway services. Rather it's only concern is exposing the primitives required for account recovery, and entirely the user has ultimate control in how they choose to utilize those account recovery primitives.
-
-### Authors
-- <img width="16px" src="https://github.com/decentralized-identity-system/did-dis/assets/3408362/ac5be9a7-69ea-4f40-b047-2501f961041d"> [Kames Geraghty](https://twitter.com/KamesGeraghty) - Founder & CTO of [District Labs](http://districtlabs.com/)
-- <img width="16px" src="https://github.com/decentralized-identity-system/did-dis/assets/3408362/9df32c0d-7147-4ebb-a27b-3c4fcf9f2754"> [Evin McMullen](https://twitter.com/provenauthority) - Founder & CEO of [Disco](https://disco.xyz/)
-
 # Overview
 
 1. Introduction
@@ -38,9 +28,7 @@ The `did:dis` standard gives users a low-friction (and low-cost) method for boot
 
 The standard relies on a combination of [counterfactual statements](https://en.wikipedia.org/wiki/Counterfactual_conditional), [offchain Identity Hubs](https://identity.foundation/decentralized-web-node/spec/0.0.1-predraft/) and [onchain Public Key Infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure).
 
-Giving people all over the world the ability to bootstrap a new decentralized identifier using only **2 private key signatures**, while maintaining the ability to progressively strengthen the security and robustness of the underlying Smart Wallet, as they reach new Web3 commitment thresholds.
-
-The standard uses the following concepts, standards and technologies:
+The proposed spec uses the following concepts, standards and technologies:
 
 - [Decentralized Identifier](https://www.w3.org/TR/did-core/#:~:text=Decentralized%20identifiers%20(DIDs)%20are%20a,the%20controller%20of%20the%20DID.) (DID) Documents
 - Counterfactual Statements
